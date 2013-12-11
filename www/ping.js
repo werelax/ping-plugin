@@ -4,6 +4,6 @@
 
 module.exports = {
   send: function(cb, cberr) {
-    cordova.exec(cb, cberr, "PingPlugin", "ping");
+    cordova.exec(cb, cberr, "PingPlugin", "ping", []);
   }
 };
